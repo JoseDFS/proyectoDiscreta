@@ -62,9 +62,6 @@ double tablita(string accion)
 {
     for (int n = 0; n < 4; n++)
     {
-        if(n==3 && accionesDiario.size()<)
-            arr[n] = 1;
-        else
             arr[n] = 0;
     }
     for (int i = 0; i < accionesDiario.size(); i++)

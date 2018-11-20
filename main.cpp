@@ -62,7 +62,7 @@ double tablita(string accion)
 {
     for (int n = 0; n < 4; n++)
     {
-        if(n==3 && accionesDiario.size()<=2)
+        if(n==3 && accionesDiario.size()<)
             arr[n] = 1;
         else
             arr[n] = 0;
@@ -96,10 +96,5 @@ double phi(int lista2[])
     double n0 = lista2[1] + lista2[3];
     double nc1 = lista2[0] + lista2[1];
     double nc0 = lista2[2] + lista2[3];
-    cout<< sqrt(n1 * n0 * nc1 * nc0)<<endl;
-    cout<< n1<<endl;
-    cout<< n0<<endl;
-    cout<< nc1<<endl;
-    cout<< nc0<<endl;
     return (n11n00 - n10n01) / sqrt(n1 * n0 * nc1 * nc0);
 }
